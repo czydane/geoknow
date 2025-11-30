@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Volcanoes — PH</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<header>
+  <nav class="navbar">
+  <a href="home.html">Home</a>
+  <a href="causes.html">Causes</a>
+  <a href="volcanoes.html">Volcanoes</a>
+  <a href="faults.html">Faults & Trenches</a>
+  <a href="safety.html">Safety Tips</a>
+  <a href="latest.html">Latest Updates</a>
+  <a href="resources.html">Resources</a>
+  <a href="about us.html">About Us</a>
+</nav>
+
+<h2 class="pagehead">Volcanoes in the Philippines</h2>
+  <button id="themeToggle" class="theme-btn">🌙</button>
+</header>
+  
+
+   <main>
+    <div class="container">
+
+      <!-- LEFT: ACTIVE -->
+      <div class="column">
+        <button class="main-btn" onclick="toggleDropdown('activeList')">Active Volcanoes in the Philippines</button>
+
+        <div id="activeList" class="dropdown-box">
+          <!-- Buttons + Cards: Button immediately followed by its card -->
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'mayonCard')">Mayon Volcano</button>
+          <div id="mayonCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mayon Volcano</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,463 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Albay, Bicol<br><strong>History:</strong> Over 50 eruptions (last notable: 2018, 2023).<br></p>
+                  </div>
+                  <img src="image/mayonvolcano.jpg" alt="Mayon Volcano">
+                </div>
+                <div class="caption">Description: Known for its perfect cone shape; one of the most active volcanoes in the Philippines.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'taalCard')">Taal Volcano</button>
+          <div id="taalCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Taal Volcano</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 311 m<br><strong>Type:</strong> Complex volcano<br><strong>Location:</strong> Batangas<br><strong>History:</strong> 38 recorded eruptions; major 2020 eruption.</p>
+                  </div>
+                  <img src="image/taal.jpg" alt="Taal Volcano">
+                </div>
+                <div class="caption">Description: Located on an island within a lake; one of the world’s smallest active volcanoes.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'kanlaonCard')">Kanlaon Volcano</button>
+          <div id="kanlaonCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Kanlaon Volcano</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,435 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Negros<br><strong>History:</strong> Frequent mild eruptions; activity 2020–2023.</p>
+                  </div>
+                  <img src="image/kanlaon.jpg" alt="Kanlaon Volcano">
+                </div>
+                <div class="caption">Description: Highest peak in the Visayas; forested and protected.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'bulusanCard')">Bulusan Volcano</button>
+          <div id="bulusanCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Bulusan Volcano</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 1,565 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Sorsogon<br><strong>History:</strong> Explosive ash eruptions (1918–2022).</p>
+                  </div>
+                  <img src="image/bulusan.jpg" alt="Bulusan Volcano">
+                </div>
+                <div class="caption">Description: Known for sudden steam-driven (phreatic) eruptions.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'hibokhibokCard')">Hibok-Hibok Volcano</button>
+          <div id="hibokhibokCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Hibok-Hibok Volcano</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 1,332 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Camiguin<br><strong>History:</strong> Deadly eruption in 1951.</p>
+                  </div>
+                  <img src="image/hibokhibok.jpg" alt="Hibok-Hibok">
+                </div>
+                <div class="caption">Description: Part of the Pacific Ring of Fire; island known as “Island Born of Fire.”</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'musuanCard')">Musuan Peak (Calayo)</button>
+          <div id="musuanCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Musuan Peak (Calayo)</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 646 m<br><strong>Type:</strong> Lava dome<br><strong>Location:</strong> Bukidnon<br><strong>History:</strong> Minor eruptions in the 1800s.</p>
+                  </div>
+                  <img src="image/musuan.jpg" alt="Musuan Peak">
+                </div>
+                <div class="caption">Description: Gently sloping dome covered with grasslands.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'parkerCard')">Parker Volcano (Mt. Melibengoy)</button>
+          <div id="parkerCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Parker Volcano (Mt. Melibengoy)</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 1,824 m<br><strong>Type:</strong> Stratovolcano with crater lake<br><strong>Location:</strong> South Cotabato<br><strong>History:</strong> Last eruption recorded 1641.</p>
+                  </div>
+                  <img src="image/parker.jpg" alt="Parker Volcano">
+                </div>
+                <div class="caption">Description: Home to Lake Maughan (crater lake).</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'smithCard')">Smith Volcano</button>
+          <div id="smithCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Smith Volcano</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 688 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Babuyan Islands, Batanes<br><strong>History:</strong> Eruptions in 1924 and 1929.</p>
+                  </div>
+                  <img src="image/smith.jpg" alt="Smith Volcano">
+                </div>
+                <div class="caption">Description: One of the active volcanoes in the Babuyan group.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'banahawCard')">Banahaw Volcano</button>
+          <div id="banahawCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Banahaw Volcano</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,158 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Quezon & Laguna<br><strong>History:</strong> Last recorded eruption 1730.</p>
+                  </div>
+                  <img src="image/banahaw.webp" alt="Mount Banahaw">
+                </div>
+                <div class="caption">Description: Sacred mountain; popular hiking site with springs and forests.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: INACTIVE -->
+      <div class="column">
+        <button class="main-btn" onclick="toggleDropdown('inactiveList')">Inactive Volcanoes in the Philippines</button>
+
+        <div id="inactiveList" class="dropdown-box">
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'arayatCard')">Mount Arayat</button>
+          <div id="arayatCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Arayat</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 1,026 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Pampanga<br><strong>History:</strong> No recorded eruptions.</p>
+                  </div>
+                  <img src="image/arayat.jpg" alt="Mount Arayat">
+                </div>
+                <div class="caption">Description: Lone mountain rising from the plains; popular hiking site.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'apoCard')">Mount Apo</button>
+          <div id="apoCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Apo</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,954 m<br><strong>Type:</strong> Stratovolcano (potentially active)<br><strong>Location:</strong> Davao Region<br><strong>History:</strong> No confirmed eruption; fumaroles present.</p>
+                  </div>
+                  <img src="image/apo.jpg" alt="Mount Apo">
+                </div>
+                <div class="caption">Description: Highest peak in the Philippines; rich biodiversity.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'makilingCard')">Mount Makiling</button>
+          <div id="makilingCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Makiling</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 1,090 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Laguna<br><strong>History:</strong> No historical eruptions.</p>
+                  </div>
+                  <img src="image/makiling.jpg" alt="Mount Makiling">
+                </div>
+                <div class="caption">Description: Famous for the legend of Maria Makiling; forest reserve.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'isarogInactiveCard')">Mount Isarog (inactive listing)</button>
+          <div id="isarogInactiveCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Isarog</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,000 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Camarines Sur<br><strong>History:</strong> No recorded eruptions.</p>
+                  </div>
+                  <img src="image/isarog.jpg" alt="Mount Isarog">
+                </div>
+                <div class="caption">Description: Biodiversity hotspot; home to endemic species.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'pulagCard')">Mount Pulag</button>
+          <div id="pulagCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Pulag</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,926 m<br><strong>Type:</strong> Inactive/folnd mountain<br><strong>Location:</strong> Benguet<br><strong>History:</strong> No known volcanic activity.</p>
+                  </div>
+                  <img src="image/pulag.jpg" alt="Mount Pulag">
+                </div>
+                <div class="caption">Description: Famous for its sea of clouds; 3rd highest in PH.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'picolCard')">Mount Pico de Loro</button>
+          <div id="picolCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Pico de Loro</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 664 m<br><strong>Type:</strong> Extinct volcano remnant<br><strong>Location:</strong> Cavite/Batangas<br><strong>History:</strong> No eruptions; eroded remnant.</p>
+                  </div>
+                  <img src="image/pico.jpg" alt="Pico de Loro">
+                </div>
+                <div class="caption">Description: Named after its “parrot’s beak” peak.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'samatCard')">Mount Samat</button>
+          <div id="samatCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Samat</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 553 m<br><strong>Type:</strong> Extinct volcano<br><strong>Location:</strong> Bataan<br><strong>History:</strong> No volcanic record.</p>
+                  </div>
+                  <img src="image/samat.jpg" alt="Mount Samat">
+                </div>
+                <div class="caption">Description: Site of the Dambana ng Kagitingan shrine.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'halconCard')">Mount Halcon</button>
+          <div id="halconCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Halcon</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,582 m<br><strong>Type:</strong> Extinct volcano (mountain)<br><strong>Location:</strong> Mindoro</p>
+                  </div>
+                  <img src="image/halcon.jpg" alt="Mount Halcon">
+                </div>
+                <div class="caption">Description: One of the toughest climbs in the Philippines.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'madjaasCard')">Mount Madjaas</button>
+          <div id="madjaasCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Madjaas</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,117 m<br><strong>Type:</strong> Extinct volcano<br><strong>Location:</strong> Antique</p>
+                  </div>
+                  <img src="image/madjaas.jpg" alt="Mount Madjaas">
+                </div>
+                <div class="caption">Description: Highest peak in Panay Island.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'kalatunganCard')">Mount Kalatungan</button>
+          <div id="kalatunganCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Kalatungan</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,860 m<br><strong>Type:</strong> Extinct volcano / mountain<br><strong>Location:</strong> Bukidnon</p>
+                  </div>
+                  <img src="image/kalatungan.jpg" alt="Mount Kalatungan">
+                </div>
+                <div class="caption">Description: Part of the Kitanglad Mountain Range.</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+  </main>
+  <footer>Created by <br>
+    COOPERA, FELIZARDO, LABRADOR, LOZADA, & PEREZ.<br>
+    <br>
+    Built for education — data from PHIVOLCS. © 2025<br>
+    Monitor volcano bulletins at PHIVOLCS. © 2025</footer>
+  <script src="script.js"></script>
+</body>
+</html>
