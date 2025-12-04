@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Volcanoes — PH</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<header>
+  <nav class="navbar">
+  <a href="index.html">Home</a>
+  <a href="causes.html">Causes</a>
+  <a href="volcanoes.html">Volcanoes</a>
+  <a href="faults.html">Faults & Trenches</a>
+  <a href="safety.html">Safety Tips</a>
+  <a href="latest.html">Latest Updates</a>
+  <a href="resources.html">Resources</a>
+  <a href="about us.html">About Us</a>
+</nav>
+
+<h2 class="pagehead">Volcanoes in the Philippines</h2>
+  <button id="themeToggle" class="theme-btn">🌙</button>
+</header>
+  
+
+   <main>
+    <div class="container">
+
+      <!-- LEFT: ACTIVE -->
+      <div class="column">
+        <button class="main-btn" onclick="toggleDropdown('activeList')">Active Volcanoes in the Philippines</button>
+
+        <div id="activeList" class="dropdown-box">
+          <!-- Buttons + Cards: Button immediately followed by its card -->
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'mayonCard')">Mayon Volcano</button>
+          <div id="mayonCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mayon Volcano</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,463 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Albay, Bicol<br><strong>History:</strong> Over 50 eruptions (last notable: 2018, 2023).<br></p>
+                  </div>
+                  <img src="image/mayonvolcano.jpg" alt="Mayon Volcano">
+                </div>
+                <div class="caption">Description: Known for its perfect cone shape; one of the most active volcanoes in the Philippines. Mayon is the archetype of a symmetrical stratovolcano and one of the world most active ones. It has frequent eruptions producing pyroclastic flows, mud flows and ash falls that repeatedly triggered large-scale evacuations. Mayon's most violent eruption, in 1814, killed more than 1200 people and devastated several towns. The volcano rises 2462 m above the Albay Gulf and has very steep upper slopes averaging 35-40 degrees capped by a small summit crater. Historical records of eruptions date back to 1616 and range from strombolian to basaltic plinian, with cyclical activity beginning with basaltic eruptions, followed by longer term andesitic lava flows.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'taalCard')">Taal Volcano</button>
+          <div id="taalCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Taal Volcano</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 311 m<br><strong>Type:</strong> Complex volcano<br><strong>Location:</strong> Batangas<br><strong>History:</strong> 38 recorded eruptions; major 2020 eruption.</p>
+                  </div>
+                  <img src="image/taal.jpg" alt="Taal Volcano">
+                </div>
+                <div class="caption">Description: Located on an island within a lake; one of the world’s smallest active volcanoes. The Taal caldera is largely filled by Lake Taal, whose 267 sq km surface lies only 3 m above sea level. The maximum depth of the lake is 160 m, and contains several eruptive centers submerged beneath the lake. All historic eruptions took place from the 5-km-wide volcanic island in the northern-central part of the lake. The island is formed by overlapping stratovolcanoes, cinder cones and tuff rings (maars). Historic eruptions have seen the constant change and growth of the island. 
+Taal caused one of the worst volcano disasters in history: its eruption in 1911 killed 1334 people and caused ash fall as far as Manila city.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'kanlaonCard')">Kanlaon Volcano</button>
+          <div id="kanlaonCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Kanlaon Volcano</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,435 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Negros<br><strong>History:</strong> Frequent mild eruptions; activity 2020–2023.</p>
+                  </div>
+                  <img src="image/kanlaon.jpg" alt="Kanlaon Volcano">
+                </div>
+                <div class="caption">Description: Highest peak in the Visayas; forested and protected. Canlaon, part of the Negros Volcanic Belt, is a large stratovolcano dotted with numerous flank cones and craters, many of which contain lakes.The summit of Kanlaon contains a 2-km-wide, elongated caldera with two craters. One is inactive and contains a crater lake. The second crater to the south is smaller, higher and contains the historically active vent, Lugud crater. Lugud crater is 250 m wide and 150-200 m deep. The base of Kanlaon measures an area of 30 km x 14 km.
+Historical eruptions from Kanlaon have been recorded since 1866.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'bulusanCard')">Bulusan Volcano</button>
+          <div id="bulusanCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Bulusan Volcano</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 1,565 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Sorsogon<br><strong>History:</strong> Explosive ash eruptions (1918–2022).</p>
+                  </div>
+                  <img src="image/bulusan.jpg" alt="Bulusan Volcano">
+                </div>
+                <div class="caption">Description: Known for sudden steam-driven (phreatic) eruptions.Bulusan is a young andesitic volcano built upon the NE rim of an older dacitic-to-rhyolitic caldera, the 11-km wide Irosin caldera, which was formed about 35,000-40,000 years ago.
+Bulusan is flanked by several other large intracaldera lava domes and cones, including the prominent Mount Jormajan lava dome on the SW flank and Sharp Peak to the NE. The summit of 1565-m-high Bulusan volcano is unvegetated and contains a 300-m-wide, 50-m-deep crater. Three small craters are located on the SE flank.Many moderate explosive eruptions have been recorded at Bulusan since the mid-19th century.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'hibokhibokCard')">Hibok-Hibok Volcano</button>
+          <div id="hibokhibokCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Hibok-Hibok Volcano</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 1,332 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Camiguin<br><strong>History:</strong> Deadly eruption in 1951.</p>
+                  </div>
+                  <img src="image/hibokhibok.jpg" alt="Hibok-Hibok">
+                </div>
+                <div class="caption">Description: Part of the Pacific Ring of Fire; island known as “Island Born of Fire.” Hibok-Hibok volcano (also known as Catarman volcano) is the youngest and the only historically active volcano on Camiguin Island, which is located 9 km off the north coast of Mindanao Island, Philippines.
+Camiguin island itself is a 292 sq km oblate, 20 km long island composed of 4 overlapping stratovolcanoes and some flank cones. Young Hibok-Hibok lies in the NW of the island about 6 km NW of Mt. Mambajao. It is andesitic-to-rhyolitic in composition and contains several lava domes, including Mt. Vulcan on its NW flank. Major eruptions during 1871-75 and 1948-53 formed flank lava domes and produced pyroclastic flows that devastated villages at the coast.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'musuanCard')">Musuan Peak (Calayo)</button>
+          <div id="musuanCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Musuan Peak (Calayo)</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 646 m<br><strong>Type:</strong> Lava dome<br><strong>Location:</strong> Bukidnon<br><strong>History:</strong> Minor eruptions in the 1800s.</p>
+                  </div>
+                  <img src="image/musuan.jpg" alt="Musuan Peak">
+                </div>
+                <div class="caption">Description: Gently sloping dome covered with grasslands. Musuan volcano (also known as Calayo volcano) is an isolated lava dome near the Pulangi River at the western base of Mt Tangkulan (1678 m) in Bukidnon Province in central Mindanao, Philippines. The low cone is grass-covered and andesitic-to-dacitic in composition. Musuan last erupted in Dec 1886, as a Jesuit priest reported who visited the volcano 4 years later in 1891, at which time there was still strong fumarolic activity, which prevented closer examination. The eruption was probably phreatic in nature, and was reported to have "burned everything around it".
+</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'parkerCard')">Parker Volcano (Mt. Melibengoy)</button>
+          <div id="parkerCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Parker Volcano (Mt. Melibengoy)</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 1,824 m<br><strong>Type:</strong> Stratovolcano with crater lake<br><strong>Location:</strong> South Cotabato<br><strong>History:</strong> Last eruption recorded 1641.</p>
+                  </div>
+                  <img src="image/parker.jpg" alt="Parker Volcano">
+                </div>
+                <div class="caption">Description: Home to Lake Maughan (crater lake). Parker volcano (also known as Falen locally) is a low, but steep-sided vegetated stratovolcano located 30 km west of General Santos City, near the southern tip of Mindanao Island, Philippines. The andesitic-dacitic volcano contains a 2.9 km diameter summit caldera with a lake, Lake Maughan (2 km diameter). Parker was recently identified as the source of a major explosive eruption in 1641, which caused devastating pyroclastic flows and lahars, and heavy ash fall and darkness over Mindanao Island. The 1641 eruption was one of 3 large explosions of Parker volcano within the past 3800 years. It created the present-day summit caldera.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'smithCard')">Smith Volcano</button>
+          <div id="smithCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Smith Volcano</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 688 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Babuyan Islands, Batanes<br><strong>History:</strong> Eruptions in 1924 and 1929.</p>
+                  </div>
+                  <img src="image/smith.jpg" alt="Smith Volcano">
+                </div>
+                <div class="caption">Description: One of the active volcanoes in the Babuyan group. Smith volcano (Mt. Babuyan) 4 km to the NW of Babuyan Claro is the youngest volcano on the island and forms a beautiful 668 m high symmetrical basaltic-andesite cinder cone with ca. 3 cubic km volume. Both Babuyan Claro and Smith volcanoes have apparently been active in historical time, although it is not always certain which volcano erupted. Eruptions at Babuyan Claro are typically strombolian and/or phreatomagmatic. 
+The Askedna Hot Spring is located at the southern base of Babuyan Claro.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'banahawCard')">Banahaw Volcano</button>
+          <div id="banahawCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Banahaw Volcano</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,158 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Quezon & Laguna<br><strong>History:</strong> Last recorded eruption 1730.</p>
+                  </div>
+                  <img src="image/banahaw.webp" alt="Mount Banahaw">
+                </div>
+                <div class="caption">Description: Sacred mountain; popular hiking site with springs and forests. Banahaw has a 2-km-wide, 600-m-deep summit crater open to the SSW and contained a crater lake until 1730, when it drained to form mudflows. Similar events took place in 1743,1843 and 1909.A large collapse of the NE flank of Banahaw produced a debris avalanche deposit with a volume of 5 cubic km. The event lest a 8 km wide and more than 1 km deep horse-shoe shaped depression extending from 1700 m to 650 m altitude.The oldest deposits from Banahaw volcano are known as the Lucena pyroclastic flow deposits, visible on the shore at Tayabas Bay near Lucerna City and at the eastern base of Banhao de Lucban stratovolcano.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: INACTIVE -->
+      <div class="column">
+        <button class="main-btn" onclick="toggleDropdown('inactiveList')">Inactive Volcanoes in the Philippines</button>
+
+        <div id="inactiveList" class="dropdown-box">
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'arayatCard')">Mount Arayat</button>
+          <div id="arayatCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Arayat</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 1,026 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Pampanga<br><strong>History:</strong> No recorded eruptions.</p>
+                  </div>
+                  <img src="image/arayat.jpg" alt="Mount Arayat">
+                </div>
+                <div class="caption">Description: Lone mountain rising from the plains; popular hiking site. Mount Arayat is a dormant stratovolcano in Pampanga, Philippines, standing at 1,026 meters and surrounded by plains. It has two peaks, features a breached crater from an ancient debris avalanche, and is known for its lush forests, hiking trails, and cultural significance as the home of local legends like the goddess Maria Sinukuan. Despite being dormant, it has weak fumarolic activity at its northwest summit. There are no records of historical eruptions, but weak fumarolic (steam) activity is present on the northwest summit. It was declared a national park in 1933 and is a popular tourist destination and  central to local folklore, notably the legend of Maria Sinukuan, a goddess said to reside on the mountain, often associated with the "White Rock" lava dome. The mountain's diverse plant life supports vital ecological functions like water filtration and soil conservation for surrounding communities also a popular destination for hikers, with trails ranging from beginner-friendly to challengin.It offers scenic views of the surrounding plains and is a prominent landmark in the region. </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'apoCard')">Mount Apo</button>
+          <div id="apoCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Apo</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,954 m<br><strong>Type:</strong> Stratovolcano (potentially active)<br><strong>Location:</strong> Davao Region<br><strong>History:</strong> No confirmed eruption; fumaroles present.</p>
+                  </div>
+                  <img src="image/apo.jpg" alt="Mount Apo">
+                </div>
+                <div class="caption">Description: Highest peak in the Philippines; rich biodiversity. Mount Apo is the highest mountain in the Philippines, also a dormant stratovolcano on the island of Mindanao known for its high biodiversity and scenic beauty. It reaches an elevation of 2,954meters (9,692 feet) and is a protected area with diverse flora and fauna, including the Philippine Eagle. The mountain is popular for hiking and features attractions like hot springs, lakes, and waterfalls. A protected area known as Mt. Apo Natural Park, which is also an ASEAN Heritage Park.Includes Lake Agco, Lake Venado, and numerous waterfalls like Tudaya and Mabbu, as well as hot springs. Home to a vast array of plant and animal species, considered a center of endemism in Mindanao. The Philippine eagle (the national bird) and the Apo sunbird are just two of the species found here. The mountain is considered a sacred place by several indigenous groups who live on its lower slopes. Includes various temples and cultural sites like the To temples. 
+</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'makilingCard')">Mount Makiling</button>
+          <div id="makilingCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Makiling</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 1,090 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Laguna<br><strong>History:</strong> No historical eruptions.</p>
+                  </div>
+                  <img src="image/makiling.jpg" alt="Mount Makiling">
+                </div>
+                <div class="caption">Description: Famous for the legend of Maria Makiling; forest reserve. Mount Makiling is a dormant stratovolcano in the Philippines, located between Laguna and Batangas provinces. It is a protected area called the Makiling Forest Reserve, managed by the University of the Philippines Los Baños (UPLB) and renowned for its rich biodiversity and geothermal features like hot springs. The mountain is also a significant part of Philippine folklore, said to be the resting place of the mythical guardian spirit Maria Makiling. : It is the highest peak in the Laguna Volcanic Field and rises to an elevation of 1,090 meters (3,580 ft). The mountain's silhouette is often likened to the reclining form of Maria Makiling.The mountain is home to a diverse array of flora and fauna and was declared an ASEAN Heritage Park. Its ecosystems range from lowland to montane rainforests and are home to endemic, indigenous, and introduced species. The area was once the first national park of the Philippines before being transferred to UPLB for forestry education.While it is considered a dormant volcano, geothermal features like mud springs and hot springs are still present, indicating ongoing volcanic activity. The Philippine Institute of Volcanology and Seismology classifies it as potentially active.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'isarogInactiveCard')">Mount Isarog (inactive listing)</button>
+          <div id="isarogInactiveCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Isarog</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,000 m<br><strong>Type:</strong> Stratovolcano<br><strong>Location:</strong> Camarines Sur<br><strong>History:</strong> No recorded eruptions.</p>
+                  </div>
+                  <img src="image/isarog.jpg" alt="Mount Isarog">
+                </div>
+                <div class="caption">Description: Biodiversity hotspot; home to endemic species. Mount Isarog is a dormant stratovolcano in Camarines Sur, Philippines, with a peak of about 1,966 meters. It is part of the Bicol Volcanic Arc and is known for its rich biodiversity, which is protected within the Mount Isarog National Park. The mountain is a key watershed for the region, featuring lush forests, waterfalls, and hot springs, and is popular for eco-tourism and hiking. The park, which covers a large portion of the mountain, is a globally recognized Key Biodiversity Area.The mountain's vegetation includes various forest types, from lowland forest to montane and mossy forests at higher elevations. It is home to a wide range of flora and fauna, including endemic species like the Isarog shrew-mouse. Many threatened and restricted-range bird species have also been recorded here. It is a vital watershed for surrounding communities. Hiking to the summit, visiting waterfalls like Malabsay Falls and Nabuntulan Falls, and exploring hot springs are popular activities.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'pulagCard')">Mount Pulag</button>
+          <div id="pulagCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Pulag</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,926 m<br><strong>Type:</strong> Inactive/folnd mountain<br><strong>Location:</strong> Benguet<br><strong>History:</strong> No known volcanic activity.</p>
+                  </div>
+                  <img src="image/pulag.jpg" alt="Mount Pulag">
+                </div>
+                <div class="caption">Description: Famous for its sea of clouds; 3rd highest in PH. Mount Pulag is the highest peak in Luzon and the third-highest in the Philippines, famous for its "sea of clouds" and breathtaking sunrise views. Located in the provinces of Benguet, Ifugao, and Nueva Vizcaya, it is a dormant volcano known for its diverse ecosystems, including pine forests, mossy forests, and grasslands with dwarf bamboo. The mountain is a sacred place for indigenous groups like the Ibaloi and Kalanguya, and it is a popular destination for hikers. 2,926 meters 9,600 feet.  Borders the provinces of Benguet, Ifugao, and Nueva Vizcaya in the Cordillera Central mountain range. This nickname comes from its stunning "sea of clouds" and is considered a sacred mountain by local indigenous groups. Home to a variety of endemic species, including the Philippine Brown Deer, Northern Luzon Giant Cloud Rat, and various orchids and pitcher plants.The mountain is considered sacred by the Ibaloi, Kalanguya, and other indigenous communities, who believe it is home to ancestral spirits.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'picolCard')">Mount Pico de Loro</button>
+          <div id="picolCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Pico de Loro</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 664 m<br><strong>Type:</strong> Extinct volcano remnant<br><strong>Location:</strong> Cavite/Batangas<br><strong>History:</strong> No eruptions; eroded remnant.</p>
+                  </div>
+                  <img src="image/pico.jpg" alt="Pico de Loro">
+                </div>
+                <div class="caption">Description: Named after its “parrot’s beak” peak. Mount Pico de Loro, also known as Mount Palay-Palay, is a dormant stratovolcano in the Philippines, located on the border of Cavite and Batangas provinces on Luzon island. Standing at 2,257 ft (688 m), it is the highest point in Cavite and part of the Mounts Palay-Palay–Mataas-na-Gulod Protected Landscape. The peak is named "Parrot's Beak" (Pico de Loro) because its distinctive, pointed summit resembles a parrot's beak. The mountain straddles the border between the provinces of Cavite and Batangas, within the Mounts Palay-Palay–Mataas-na-Gulod Protected Landscape. Its summit is a distinctive, rocky monolith that gives the mountain its name. A 360-degree panoramic view of the surrounding areas, including Cavite plains and the South China Sea, can be seen from the top.The mountain is a popular hiking destination for both beginners and seasoned mountaineers. Hikers can camp at the campsite, and some choose to tackle the more challenging optional climb to the summit's monolith. </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'samatCard')">Mount Samat</button>
+          <div id="samatCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Samat</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 553 m<br><strong>Type:</strong> Extinct volcano<br><strong>Location:</strong> Bataan<br><strong>History:</strong> No volcanic record.</p>
+                  </div>
+                  <img src="image/samat.jpg" alt="Mount Samat">
+                </div>
+                <div class="caption">Description: Site of the Dambana ng Kagitingan shrine. Mount Samat, a mountain in Bataan, Philippines, that features the Mount Samat National Shrine (Dambana ng Kagitingan). The shrine is a historical monument built to honor the gallantry of Filipino and American soldiers who fought during World War II, and it includes a large memorial cross, a colonnade with a museum, and other features. To commemorate the sacrifices of Filipino and American soldiers during the Battle of Bataan in World War II. A mountain in the town of Pilar, Bataan, Philippines, standing at an elevation of 560 meters (1,840 feet).  A large, prominent cross with a viewing gallery at its top and  marble-clad structure surrounded by a parapet and adorned with sculptures depicting the war. The name "Samat" comes from a local leaf called ikmo, which is also used as herbal medicine. </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'halconCard')">Mount Halcon</button>
+          <div id="halconCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Halcon</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,582 m<br><strong>Type:</strong> Extinct volcano (mountain)<br><strong>Location:</strong> Mindoro</p>
+                  </div>
+                  <img src="image/halcon.jpg" alt="Mount Halcon">
+                </div>
+                <div class="caption">Description: One of the toughest climbs in the Philippines.</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'madjaasCard')">Mount Madjaas</button>
+          <div id="madjaasCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Madjaas</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,117 m<br><strong>Type:</strong> Extinct volcano<br><strong>Location:</strong> Antique</p>
+                  </div>
+                  <img src="image/madjaas.jpg" alt="Mount Madjaas">
+                </div>
+                <div class="caption">Description: Highest peak in Panay Island. Madjaas refers to Mount Madja-as, the highest peak on Panay Island, Philippines, and the second-highest in the Visayas region. It is a dormant volcano in Culasi, Antique, known for its rich biodiversity, including diverse flora and fauna, mossy forests, a "crown shyness" phenomenon, and numerous waterfalls. With an elevation of 6,946 feet 2,117 meters, the mountain is a popular destination for hikers seeking a challenging climb.  It is the highest point on Panay Island and the second-highest mountain in the Visayas, after Mount Kanlaon. It is situated in Culasi, Antique, and dominates the landscape, with its view visible from as far as Kalibo, Aklan.  The mountain features mossy forests and a distinct "crown shyness" phenomenon, where the canopies of the trees don't touch. There are numerous waterfalls on its slopes, with one source mentioning as many as 14.It also contains pristine rivers and rice terraces.  The local word "madjaas" translates to "tall" or "high," which reflects the mountain's prominence. It is also featured in local legends, with one mentioning that Madja-as is the wife of Canlaon.
+</div>
+              </div>
+            </div>
+          </div>
+
+          <button class="volcano-btn" onclick="toggleCardBelow(this,'kalatunganCard')">Mount Kalatungan</button>
+          <div id="kalatunganCard" class="info-box">
+            <div class="card">
+              <div class="info">
+                <h1>Mount Kalatungan</h1>
+                <div class="top-section">
+                  <div class="info">
+                    <p><strong>Height:</strong> 2,860 m<br><strong>Type:</strong> Extinct volcano / mountain<br><strong>Location:</strong> Bukidnon</p>
+                  </div>
+                  <img src="image/kalatungan.jpg" alt="Mount Kalatungan">
+                </div>
+                <div class="caption">Description: Part of the Kitanglad Mountain Range. Mount Kalatungan is a potentially active stratovolcano in Bukidnon, Northern Mindanao, Philippines, standing at approximately 2,880 meters (9,450 feet). It is the fifth-highest mountain in the Philippines and is known for its challenging, non-technical trails that traverse diverse forest types, from lowland to a mossy upper-montane forest. The mountain is considered sacred by the indigenous Manobo and Talaandig peoples, who call it Keretungan, and is part of the Kalatungan Mountain Range Natural Park. It is part of a protected area that is rich in biodiversity, with a high number of endemic and endangered species of plants, including orchids, and vertebrates, such as the Philippine eagle.  The Manobo and Talaandig indigenous peoples consider Mount Kalatungan sacred and refer to it as "Keretungan". The mountain is within the ancestral domain of the Menuvù tribe, which is managed as a conserved area.  The summit is known to be exposed and has limited space, with camping on the peak now prohibited.</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+  </main>
+  <footer>Created by <br>
+    COOPERA, FELIZARDO, LABRADOR, LOZADA, & PEREZ.<br>
+    <br>
+    Built for education — data from PHIVOLCS. © 2025<br>
+    Monitor volcano bulletins at PHIVOLCS. © 2025</footer>
+  <script src="script.js"></script>
+</body>
+</html>
