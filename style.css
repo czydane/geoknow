@@ -107,7 +107,6 @@ footer {
    border-radius: 6px;
    cursor: pointer;
    background: transparent;
-   backdrop-filter: blur(6px);
    font-weight: bold;
    transition: 0.3s;
 }
@@ -258,4 +257,33 @@ footer {
 
 .navbar a:hover {
   color: #00c8ff;
+}
+
+.dch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between 10px;
+    gap: 240px;
+}
+
+.info-box12 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.info-box12 img {
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info-content {
+    flex: 1;
 }
